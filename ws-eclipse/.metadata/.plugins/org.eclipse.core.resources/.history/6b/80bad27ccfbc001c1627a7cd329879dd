@@ -1,0 +1,20 @@
+package entities;
+
+public class OrderItem {
+	private Integer quantity;
+	private Double price;
+	
+	// COMPOSIÇÃO ENTRE ORDERITEM E PRODUCT
+	private Product product;
+	
+	public OrderItem() {}
+	
+	public OrderItem(Integer quantity, Double price) {
+		this.quantity = quantity;
+		this.price = price;
+	}
+	
+	public double subTotal(Integer quantity, Double price) {
+		return quantity * price;
+	}
+}

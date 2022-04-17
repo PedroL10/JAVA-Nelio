@@ -1,0 +1,24 @@
+package application;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Path path = Paths.get("C:\\temp\\ws-eclipse\\TrabalhoSO\\src\\entities", "DadosPedido.txt"); // C:\ferramentas.txt
+		List<String> linhas = Files.readAllLines(path);
+		
+		sc.close();
+
+	}
+
+}

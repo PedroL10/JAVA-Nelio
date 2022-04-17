@@ -1,0 +1,10 @@
+package entities;
+
+public class Contas {
+	private int numConta;
+	private String tipo;
+	private String dono;
+	private double saldo;
+	private String status;
+
+}

@@ -1,0 +1,12 @@
+package entities;
+
+public class ImportedProduct extends Product {
+	
+	private Double customFee;
+	
+	@Override
+	public String priceTag() {
+		return "";
+	}
+
+}

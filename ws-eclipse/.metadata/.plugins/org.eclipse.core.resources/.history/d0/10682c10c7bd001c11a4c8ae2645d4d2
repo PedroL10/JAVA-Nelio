@@ -1,0 +1,11 @@
+package entities;
+
+import entities.Pedido;
+
+public class BracoMecanico {
+	
+	
+	public String organizaEntrega() {
+		
+	}
+}

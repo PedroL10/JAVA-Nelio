@@ -1,0 +1,17 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.xml.stream.events.Comment;
+
+public class Post {
+
+	private Date moment;
+	private String title;
+	private String coment;
+	private Integer likes;
+	
+	private List<Comment> comments = new ArrayList<>();
+}
